@@ -5,7 +5,7 @@ Divide the text into sections of characters and one-hot encode all the character
 Label the sections with the characters that follow the last character in the section.
 And pass this labeled data to my model.
 
-The model has an output layer and one hidden lstm layer with the state at time step n updated as follows:
+The model has an output layer and two hidden lstm layer with the state at time step n updated as follows:
 Sn = U * Sn-1 + (1 - U) * [ input * Wi + R * (Output * Wo) + B ]
 where input is the current input, output is the output from the previous time step, U and R are scalars between 0 and 1,
 and Wi and Wo are weights and B is the bias.
