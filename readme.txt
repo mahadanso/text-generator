@@ -15,3 +15,8 @@ output layer, which has a softmax activation function.
 Then compute the loss function which is the cross entropy loss function and take the mean accross all the batches
 , since we are training in batches.
 Then pass this mean to the gradient descent optimizer to update the weights and biases accordingly.
+
+Questions:
+I want to know if everything is right for me to carry out an experiment with the model or there's still moore work to be done?
+If so then what?
+Also general feedback and recomendations.
